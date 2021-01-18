@@ -1,4 +1,4 @@
-
+# About
 This is a project by me and my peers Joy, Yash and Andrea. The final product is capable of sending covert messages across networks (or locally) by modulating the sending frequency of TCP packets from one process to another. The recieving end must interpret the modulations and account for errors arising from network latency and information loss. This error checking is achieved through an extended or modified implementation of UPC checks.
 
 The idea behind this project is that there is a process which is sending overt information to another program (locally or across a network). We imagine that an actor is attemping to use this overt data flow to covertly export information to another principal (having already stratigically injected additional code capable of transmiting this covert data into the overt communication process).
