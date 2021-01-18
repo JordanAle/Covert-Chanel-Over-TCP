@@ -20,6 +20,6 @@ Running the custom configuration requires ALL additional arguments. The `<debug>
 `<time_step>` is the amount of time separating one informational delay from the next. base_delay + x * time_step for the number of distinct information-carrying delay types x generates the delays to signal information
 `<error_margin>` describes how far from the received delay a value can be to be considered as part of the closest information-carrying delay type
 
-# Sending Covert Data
+## Sending Covert Data
 Covert data may be sent in one of two ways. The first method creates a stream for cover data. After begining both processes, simply type or paste the raw binary data to send into the command line of P1, then press enter. This will send the data to the second principal and allow additional command line data inputs. The second method does not allow for additional input to be sent after the first message, but allows for file references. For this method as you start P1, pipe the file containing covert binary data into P1 as follows: 
 `cat [covert_data_file_text_file] | python3 P1.py [overt data text file]` or `echo [raw binary data] | python3 P1.py [overt data text file]`. This will send data from the covert file until either 1) all overt data is sent and the connection to P2 is closed or 2) all covert data is sent (at which point the overt data will continue sending until its end is reached).
