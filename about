@@ -1,4 +1,3 @@
-#About The Project
 
 This is a project by me and my peers Joy, Yash and Andrea. The final product is capable of sending covert messages across networks (or locally) by modulating the sending frequency of TCP packets from one process to another. The recieving end must interpret the modulations and account for errors arising from network latency and information loss. This error checking is achieved through an extended or modified implementation of UPC checks.
 
