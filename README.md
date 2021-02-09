@@ -28,4 +28,4 @@ Covert data may be sent in one of two ways. The first method creates a stream fo
 
 The project in its currently published form is directed at local communication, but the project easily pivots for network usage. Simply make the few edits to IP and PORT as referenced in P1 and P2 code comments, then run P1 and P2 on separate devices on a network. Another set of customizable fields for network use are the TCP packet delay rates that allow covert message detection. They may be fitted to suit individual networks or use cases to decrease errors (at the cost of throughput) or increase data throughput (at the cost of message accuracy).
 
-For additional project information, see the repository's about page. There, you can find information about the authors and the ideas behind the project.
+For additional project information and information about my co-authors Joy, Yash and Andrea see the repository's 'About' page. There, you can find information about the authors and the ideas behind the project.
